@@ -1,0 +1,126 @@
+#destination{
+    padding-top: 136px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 1111111;
+}
+.destination_section_wrapper{
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 70px;
+}
+h5{
+    font-size:30px;
+    font-weight:400;
+    color:#000000;
+    margin-bottom: 31px;
+    text-transform: uppercase;
+}
+h3{
+    font-size:55px;
+    font-weight:700;
+    color:#036E8A;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    max-width: 558px;
+}
+.destinationrpara{
+    font-size:20px;
+    font-weight:400;
+    max-width:528px;
+    color: #000000;
+}
+.des_videocontent{
+    height:369px;
+    width:508px;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    box-shadow:0px 3px 6px 0px rgba(0, 0, 0, 0.32);
+    position: relative;
+
+}
+.des_videocontent img{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+.playbtn{
+    height:72px;
+    width:72px;
+    border-radius: 50%;
+    background:white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 100;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playbtn svg{
+    font-size: 22px;
+    color: #036E8A;
+}
+.ticketbookwrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height:201px;
+    width:1148px;
+    border: 2px solid #036E8A;
+    border-radius: 25px;
+    align-items: center;
+}
+.destinationicon svg{
+    font-size:35px;
+    color: #FF8000;
+}
+.destinationicon svg:last-child{
+    color: rgba(255, 128, 0, 0.5);
+}
+.ticketbookheading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #036E8A;
+}
+.destinationicon{
+    display: flex;
+    gap:5px;
+}
+.borderline{
+    height:96px;
+    width:3px;
+    background:#FF8000;
+}
+.tourprice{
+    display: flex;
+    flex-direction: column;
+}
+.packamountheading{
+    font-size:20px;
+    font-weight:400;
+    color: #000000;
+}
+.packageamount{
+    font-size:60px;
+    font-weight:700;
+    color: #036E8A;
+}
+.destibtn .bookbtn{
+    text-transform: uppercase;
+    padding:15px 43px 19px 45px;
+    font-size:25px;
+    font-weight: 700;
+    background-color:#FF8000;
+    border:2px solid transparent ;
+    color:white;
+    border-radius:15px;
+    transition: 0.3s;
+}
+.destibtn .bookbtn:hover{
+    background: white;
+    border: 2px solid #FF8000;
+    color: #FF8000;
+    transition: 0.3s;
+}

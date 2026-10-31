@@ -1,0 +1,109 @@
+#gallary{
+    padding-top:111px;
+    position: relative;
+    margin-bottom: 112px;
+}
+.gallarybg{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.gallaryheadingwrapper {
+    text-align: center;
+    margin: 0 auto;
+ 
+   
+}
+.gallaryheadingwrapper h2{
+    font-size:60px;
+    font-weight:700;
+    color:#036E8A;
+    max-width:571px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+.gallarypara{
+    max-width:829px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    color:#000;
+    margin-bottom: 106px;
+}
+.gallarypc{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.gallaryimgwrape{
+    display: flex;
+     gap: 16px;
+}
+.longpic{
+    height:407px;
+    width:275px;
+    border-radius: 45px;
+    object-fit: cover;
+    position: relative;
+}
+.longpic img{
+   width: 100%;
+   height:100%;
+}
+.shortpic{
+    height:266px;
+    width:275px;
+    border-radius: 45px;
+    object-fit: cover;
+    position: relative;
+}
+.shortpic img{
+   width: 100%;
+   height:100%;
+}
+.longoverlay{
+    height:407px;
+    width:275px;
+    border-radius: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 323px;
+  
+    
+}
+.shortoverlay{
+    height:266px;
+    width:275px;
+    border-radius: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top:183px;
+  
+  
+    
+
+}
+.address{
+    font-size:25px;
+    font-weight:700;
+    color:#707070;
+    display: block;
+    transition: 0.3s;
+    
+}
+.compliment{
+    font-size:20px;
+    font-weight:400;
+    color:#707070;
+    transition: 0.3s;
+}
+.longpic:hover .address,.longpic:hover .compliment {
+    color: white;
+    transition: 0.3s;
+}
+.shortpic:hover .address,.shortpic:hover .compliment{
+     color: white;
+     transition: 0.3s;
+}

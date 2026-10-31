@@ -1,0 +1,38 @@
+.seconddestinationwraper{
+    display: flex;
+    justify-content: space-between;
+}
+.seconddestinationpic{
+    height:523px ;
+    width:508px;
+    border-radius: 25px;
+
+}
+.seconddesticontent h5{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-top: 76px;
+}
+#seconddestination{
+    background:#036E8A;
+    padding: 69px 0;
+    position: relative;
+    z-index: 111;
+}
+.seconddestibg img{
+    position:absolute;
+    bottom:48px;
+    left:277px;
+    z-index: -1;
+}
+.seconddesticontent h3{
+    color: white;
+    max-width: 561px;
+}
+.seconddestipara{
+    max-width:528px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+}
